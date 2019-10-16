@@ -26,7 +26,7 @@ public class UserMgtController {
 	//@PostConstruct
 	public void init() {
 		userService.addUser(new User("pp", "pp@pp.com", "pp123", "admin",true));
-		userService.addUser(new User("vyhsu", "vyshu.@gmail.com", "vyshu123", "mgr",true));
+		userService.addUser(new User("vyhsu", "vyshu@gmail.com", "vyshu123", "mgr",true));
 		userService.addUser(new User("nikhil", "nikhil@gmail.com", "nikhil123","emp", true));
 	}
 
